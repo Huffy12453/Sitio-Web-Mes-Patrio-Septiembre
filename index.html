@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Mes Patrio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #00B050;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .title-box {
+            background-color: white;
+            padding: 15px 50px;
+            border-radius: 8px;
+        }
+        .title-box h1 {
+            margin: 0;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 2.5em;
+            text-decoration: underline;
+            color: #000;
+        }
+        main {
+            flex: 1;
+            background-color: white;
+            padding: 40px 5%;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+        .top-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 30px;
+        }
+        .info-box {
+            background-color: #bdf271;
+            padding: 25px;
+            flex: 1;
+            font-size: 1.1em;
+            line-height: 1.5;
+            color: #000;
+        }
+        .btn {
+            background-color: #A3432A;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 8px;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s ease;
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #823521;
+        }
+        .btn-top {
+            padding: 15px 25px;
+            font-size: 1.1em;
+            width: 150px;
+        }
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+        }
+        .timeline-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            flex: 1;
+        }
+        .timeline-img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .btn-date {
+            padding: 10px 15px;
+            width: 80%;
+            font-size: 0.95em;
+        }
+        .arrow {
+            width: 50px;
+            flex-shrink: 0;
+        }
+        footer {
+            background-color: #FF0000;
+            padding: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer-box {
+            background-color: white;
+            width: 90%;
+            padding: 15px 30px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 1.1em;
+        }
+        .footer-box span {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title-box">
+            <h1>El Mes Patrio</h1>
+        </div>
+    </header>
+    <main>
+        <div class="top-info">
+            <div class="info-box">
+                <strong>Septiembre</strong> es considerado el Mes Patrio en México principalmente porque en este mes coinciden los acontecimientos históricos definitivos que dieron origen y libertad a la nación, abarcando desde el inicio de la lucha armada hasta la firma de la independencia formal.
+            </div>
+            <a href="mitos.html" class="btn btn-top">Datos curiosos y<br>Mitos</a>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <img src="https://via.placeholder.com/250x150/cccccc/666666?text=Imagen+1" alt="Niños Héroes" class="timeline-img">
+                <a href="13_septiembre.html" class="btn btn-date">13 de septiembre<br>1847</a>
+            </div>
+            <svg class="arrow" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2,10 H14 V4 L22,12 L14,20 V14 H2 Z" fill="black"/>
+            </svg>
+            <div class="timeline-item">
+                <img src="https://via.placeholder.com/250x150/cccccc/666666?text=Imagen+2" alt="Grito de Dolores" class="timeline-img">
+                <a href="15_septiembre.html" class="btn btn-date">15 de septiembre<br>1810</a>
+            </div>
+            <svg class="arrow" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2,10 H14 V4 L22,12 L14,20 V14 H2 Z" fill="black"/>
+            </svg>
+            <div class="timeline-item">
+                <img src="https://via.placeholder.com/250x150/cccccc/666666?text=Imagen+3" alt="Independencia" class="timeline-img">
+                <a href="16_septiembre.html" class="btn btn-date">16 de septiembre<br>1810</a>
+            </div>
+            <svg class="arrow" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M2,10 H14 V4 L22,12 L14,20 V14 H2 Z" fill="black"/>
+            </svg>
+            <div class="timeline-item">
+                <img src="https://via.placeholder.com/250x150/cccccc/666666?text=Imagen+4" alt="Ejército Trigarante" class="timeline-img">
+                <a href="27_septiembre.html" class="btn btn-date">27 de septiembre<br>1821</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-box">
+            <span>Muñiz Garcia Manuel Hector &nbsp;&nbsp; N#Control: 0601</span>
+            <span>|</span>
+            <span>5-I Programacion</span>
+            <span>|</span>
+            <span>CBTIS 128</span>
+        </div>
+    </footer>
+</body>
+</html>

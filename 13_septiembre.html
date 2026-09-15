@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13 de septiembre</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #00B050;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .title-box {
+            background-color: white;
+            padding: 15px 50px;
+            border-radius: 8px;
+        }
+        .title-box h1 {
+            margin: 0;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 2.5em;
+            text-decoration: underline;
+            color: #000;
+        }
+        main {
+            flex: 1;
+            background-color: white;
+            padding: 40px 5%;
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+        }
+        .left-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+        }
+        .images-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .images-container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            display: block; 
+        }
+        .right-column {
+            flex: 2;
+        }
+        .text-box {
+            background-color: #bdf271;
+            padding: 25px 35px;
+            font-size: 1.05em;
+            line-height: 1.5;
+            color: #000;
+        }
+        .text-box p {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .text-box ul {
+            margin-top: 0;
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+        .text-box li {
+            margin-bottom: 5px;
+        }
+        .sub-title {
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;
+        }
+        .btn {
+            background-color: #A3432A;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 10px;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s ease;
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #823521;
+        }
+        .btn-inicio {
+            padding: 12px 30px;
+            font-size: 1.2em;
+            width: 50%;
+        }
+        footer {
+            background-color: #FF0000;
+            padding: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer-box {
+            background-color: white;
+            width: 90%;
+            padding: 15px 30px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 1.1em;
+        }
+        .footer-box span {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title-box">
+            <h1>13 de septiembre</h1>
+        </div>
+    </header>
+    <main>
+        <div class="left-column">
+            <div class="images-container">
+                <img src="https://via.placeholder.com/400x250/cccccc/666666?text=Imagen+Batalla+Chapultepec" alt="Batalla de Chapultepec">
+                <img src="https://via.placeholder.com/400x250/dddddd/666666?text=Imagen+Rostros+Ninos+Heroes" alt="Día de los Niños Héroes">
+            </div>
+            <a href="index.html" class="btn btn-inicio">Inicio</a>
+        </div>
+        <div class="right-column">
+            <div class="text-box">
+                <p>El <strong>13 de septiembre</strong> se conmemora en México el Aniversario de la Batalla de Chapultepec y la Gesta Heroica de los Niños Héroes, uno de los pasajes históricos más significativos del país ocurrido en 1847 durante la guerra mexicano-estadounidense.</p>
+                <p><span class="sub-title">El Hecho Histórico</span><br>
+                Ese día, el ejército de los Estados Unidos asaltó el Castillo de Chapultepec, el cual albergaba las instalaciones del Colegio Militar. A pesar de estar en una clara desventaja numérica y de armamento frente a más de 7,000 soldados invasores, los defensores mexicanos resistieron con valor el bombardeo y el asalto cuerpo a cuerpo.</p>
+                <p><span class="sub-title">Los Niños Héroes</span><br>
+                Entre los combatientes destacaron seis jóvenes cadetes que desobedecieron las órdenes de retirarse y entregaron su vida en defensa de la soberanía nacional:</p>
+                <ul>
+                    <li>Juan de la Barrera</li>
+                    <li>Juan Escutia (quien según la tradición civil se lanzó envuelto en la bandera nacional)</li>
+                    <li>Agustín Melgar</li>
+                    <li>Fernando Montes de Oca</li>
+                    <li>Vicente Suárez</li>
+                    <li>Francisco Márquez</li>
+                </ul>
+                <p><span class="sub-title">Importancia Actual</span><br>
+                Cada año, esta fecha marca formalmente el inicio de las grandes conmemoraciones cívicas del Mes Patrio en México. El Presidente de la República encabeza una ceremonia oficial con honores militares en el <u>Altar a la Patria</u>, un monumento ubicado en las faldas del Cerro de Chapultepec donde reposan los restos de los cadetes.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-box">
+            <span>Muñiz Garcia Manuel Hector &nbsp;&nbsp; #control: 0601</span>
+            <span>|</span>
+            <span>5-I Programacion</span>
+            <span>|</span>
+            <span>CBTIS 128</span>
+        </div>
+    </footer>
+</body>
+</html>

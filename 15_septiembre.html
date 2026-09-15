@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 de septiembre</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #00B050;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .title-box {
+            background-color: white;
+            padding: 15px 50px;
+            border-radius: 8px;
+        }
+        .title-box h1 {
+            margin: 0;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 2.5em;
+            text-decoration: underline;
+            color: #000;
+        }
+        main {
+            flex: 1;
+            background-color: white;
+            padding: 40px 5%;
+            display: flex;
+            gap: 40px; 
+            justify-content: center;
+        }
+        .left-column {
+            flex: 1; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px; 
+        }
+        .images-container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .images-container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            display: block; 
+        }
+        .right-column {
+            flex: 2; 
+        }
+        .text-box {
+            background-color: #bdf271;
+            padding: 25px 35px;
+            font-size: 1.05em;
+            line-height: 1.5;
+            color: #000;
+        }
+        .text-box p {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .text-box ul {
+            margin-top: 0;
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+        .text-box li {
+            margin-bottom: 5px;
+        }
+        .sub-title {
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;
+        }
+        .btn {
+            background-color: #A3432A;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 10px;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s ease;
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #823521;
+        }
+        .btn-inicio {
+            padding: 12px 30px;
+            font-size: 1.2em;
+            width: 50%; 
+        }
+        footer {
+            background-color: #FF0000;
+            padding: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer-box {
+            background-color: white;
+            width: 90%;
+            padding: 15px 30px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 1.1em;
+        }
+        .footer-box span {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="title-box">
+            <h1>15 de septiembre</h1>
+        </div>
+    </header>
+    <main>
+        <div class="left-column">
+            <div class="images-container">
+                <img src="https://via.placeholder.com/400x250/cccccc/666666?text=Mural+Independencia" alt="Mural de la Independencia">
+                <img src="https://via.placeholder.com/400x250/dddddd/666666?text=Fuegos+Artificiales+y+Bandera" alt="Fuegos artificiales y bandera de México">
+            </div>
+            <a href="index.html" class="btn btn-inicio">Inicio</a>
+        </div>
+        <div class="right-column">
+            <div class="text-box">
+                <p>El <strong>15 de septiembre</strong> se celebra la noche del Grito de Independencia, la tradición que conmemora el llamado que hizo el cura Miguel Hidalgo y Costilla en 1810 para iniciar la lucha por la independencia de México.</p>
+                <p><span class="sub-title">¿Qué se hace este día?</span></p>
+                <ul>
+                    <li><strong>El Grito:</strong> Las autoridades de gobierno (el presidente, gobernadores y alcaldes) salen a los balcones de los palacios de gobierno a dar los vivas patrios y hacer sonar las campanas.</li>
+                    <li><strong>Verbena popular:</strong> Las plazas principales se llenan de música en vivo, juegos pirotécnicos, banderas y antojitos mexicanos como pozole, tamales y tacos. En Ciudad Juárez, por ejemplo, el festejo oficial se realizará en la avenida Abraham Lincoln con la presentación del grupo <u>Bronco</u>.</li>
+                    <li><strong>Clases y trabajo:</strong> De acuerdo con la Secretaría de Educación Pública (SEP), el 15 de septiembre <strong>sí hay clases</strong> y las actividades laborales se realizan de manera normal; el día de descanso obligatorio es el 16 de septiembre.</li>
+                </ul>
+                <p><span class="sub-title">Personajes Ilustres</span></p>
+                <ul>
+                    <li><strong>Miguel Hidalgo y Costilla:</strong> Sacerdote considerado el Padre de la Patria, quien realizó el llamado inicial a las armas.</li>
+                    <li><strong>Ignacio Allende:</strong> Militar y coideólogo del movimiento insurgente.</li>
+                    <li><strong>Josefa Ortiz de Domínguez:</strong> Corregidora de Querétaro, pieza clave al avisar que la conspiración había sido descubierta.</li>
+                    <li><strong>José María Morelos y Pavón:</strong> Continuador de la lucha armada y autor de Sentimientos de la Nación.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-box">
+            <span>Muñiz Garcia Manuel Hector &nbsp;&nbsp; #control: 0601</span>
+            <span>|</span>
+            <span>5-I Programacion</span>
+            <span>|</span>
+            <span>CBTIS 128</span>
+        </div>
+    </footer>
+</body>
+</html>
